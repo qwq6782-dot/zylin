@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Title
+Description
+Name, date
+
+credits or additional comments
+// -->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Page Navigation</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <button data-page="home" class="active">Home</button>
+    <button data-page="about">About</button>
+    <button data-page="examples">Examples</button>
+  </nav>
+
+  <div id="home" class="page active">
+    <h1>Title here for default / home page</h1>
+    <p>This is the start, default, or home page. Write up an introduction. </p>
+  </div>
+
+  <div id="about" class="page">
+    <h1>About</h1>
+    <p>Give some background about the topic. </p>
+  </div>
+
+  <div id="examples" class="page">
+    <h1>Examples</h1>
+    <p>Show some examples</p>
+    
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

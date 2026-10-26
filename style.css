@@ -1,0 +1,70 @@
+title
+description
+your name, date
+additional comments
+*/
+
+body {
+
+ /* see https://developer.mozilla.org/en-US/docs/Web/CSS/font for more about fonts */
+ /* also https://fonts.google.com for additional fonts */
+
+      font-family: Arial, sans-serif;
+      background-color: #88638C;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+/*==========navigation============== */
+
+    nav {
+      background-color: #EAF6AD;
+      padding: 10px 0;
+     /*flexible box layout see: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout */
+      display: flex;
+     /* align items along the main axis of a flex container */
+     /* see https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+      justify-content: center;
+
+     /*define the spacing between rows and columns in layout models */
+     /* see https://developer.mozilla.org/en-US/docs/Web/CSS/gap*/
+      gap: 10px;
+    }
+
+/* default navigation */
+    nav button {
+      background-color: #DFAFEE;
+      color: #C7F6C9;
+      border: #B3DBCA;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+        
+     /* see https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
+      border-radius: 5px;
+    }
+
+/* navigation button hover style */
+    nav button:hover {
+      background-color: #F4D02E;
+    }
+
+/* active page button */
+    nav button.active {
+      background-color: #BE5019;
+    }
+
+div {
+    text-align: left;
+}
+
+/*==========content============== */
+    .page {
+      display: none;
+      padding: 40px;
+    }
+
+    .page.active {
+      display: block;
+    }
