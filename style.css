@@ -68,3 +68,46 @@ div {
     .page.active {
       display: block;
     }
+.content-card {
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid #cbd5d1;
+  border-radius: 12px;
+  background: #f4f8f5;
+}
+
+.content-card h2 {
+  margin-top: 0;
+}
+
+.content-card li {
+  margin: 0.45rem 0;
+}
+
+.action-button,
+.pledge-button {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #176b5b;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.action-button:hover,
+.pledge-button:hover {
+  background: #104d42;
+}
+
+.action-output,
+.pledge-count {
+  min-height: 1.5em;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .content-card {
+    padding: 0.9rem;
+  }
+}
