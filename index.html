@@ -2,7 +2,7 @@
 <!--
 Title
 Description
-Name, date
+Zhenyi Lin, 10/26/26
 
 credits or additional comments
 // -->
@@ -25,17 +25,74 @@ credits or additional comments
     <h1>Title here for default / home page</h1>
     <p>This is the start, default, or home page. Write up an introduction. </p>
   </div>
+<div id="home" class="page active">
+  <h1>Small Changes, Less Plastic</h1>
+  <p>
+    Plastic is everywhere—in our bags, bottles, and food packaging.
+    We don't have to fix everything today. We can start with one small change.
+  </p>
 
-  <div id="about" class="page">
-    <h1>About</h1>
-    <p>Give some background about the topic. </p>
+  <div class="content-card">
+    <h2>Try one simple idea</h2>
+    <p>
+      Want an easy place to start? Click the button and pick one small action
+      you could try this week.
+    </p>
+    <button id="action-button" class="action-button" type="button">
+      Give me an idea
+    </button>
+    <p id="action-output" class="action-output" aria-live="polite">
+      Your idea will show up here.
+    </p>
   </div>
+</div>
 
-  <div id="examples" class="page">
-    <h1>Examples</h1>
-    <p>Show some examples</p>
-    
+<div id="about" class="page">
+  <h1>Why does plastic pollution matter?</h1>
+
+  <div class="content-card">
+    <p>
+      Have you ever seen a plastic bottle on the sidewalk or near a river?
+      It might look like a small thing, but plastic can stay in the environment
+      for a very long time.
+    </p>
+    <p>
+      Animals can mistake plastic for food, and litter can make neighborhoods
+      and waterways less clean. People can help by using fewer single-use items
+      and throwing waste away properly.
+    </p>
+    <h2>What is single-use plastic?</h2>
+    <p>
+      It's plastic that we use once and then throw away, like a shopping bag,
+      straw, or takeout container. A reusable item can be a simple alternative.
+    </p>
   </div>
+</div>
+
+<div id="examples" class="page">
+  <h1>Everyday examples</h1>
+
+  <div class="content-card">
+    <p>
+      You don't need to change your whole life at once. Here are a few things
+      that are pretty easy to try:
+    </p>
+    <ul>
+      <li>Bring a reusable water bottle.</li>
+      <li>Use a tote bag when you go shopping.</li>
+      <li>Skip plastic cutlery when you don't need it.</li>
+      <li>Reuse a clean container instead of throwing it away right away.</li>
+    </ul>
+    <p>Pick one idea that feels realistic for you this week.</p>
+
+    <button id="pledge-button" class="pledge-button" type="button">
+      I'll try one this week
+    </button>
+    <p id="pledge-count" class="pledge-count" aria-live="polite">
+      No promises yet. You can be the first!
+    </p>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>
